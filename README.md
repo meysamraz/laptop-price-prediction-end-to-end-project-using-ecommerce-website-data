@@ -15,19 +15,41 @@ https://loptop-price-prediction.herokuapp.com/
 # Project Overview : 
 
 ## 1 - Collect Data 
+To collect my data, I used Digikala's secret api. I was able to collect the data I wanted (available laptops with prices) with a simple fitler.
 - #### Collect Laptop main data 
+    -   id 
+    -   title_fa 
+    -   title_en 
+    -   price 
+    -   image_url 
+    -   brand
+
 - #### Collect Laptop details data
+    -   cpu manufacturer 
+    -   cpu series
+    -   cpu model 
+    -   ram 
+    -   ram type 
+    -   internal storage 
+    -   internal storage type 
+    -   gpu manufacturer 
+    -   gpu model  
+    -   screen resolution 
+    -   ports 
+
 - #### Merge Collected data
 - #### Remove duplicated rows 
 - #### Save data into csv file 
 
 ## 2 - Take a look at data :
+After collecting the data, I started checking the collected data to make sure it was collected correctly
 - #### Check shape of data 
 - #### Check is there any null value
 - #### Check data types
 - #### Check number of unique values in each column
 
 ## 3 - Cleaning data 
+Like all machine learning projects, the data doesn't arrive perfect and ready for prediction. At this point, I started cleaning the collected data.
 - #### Convert brands name from persian to english
 - #### Convert ram from persian to english digits
 - #### Clean and convert internal storage to english
@@ -36,6 +58,7 @@ https://loptop-price-prediction.herokuapp.com/
 - #### Clean laptops resolution
 
 ## 4 - EDA 
+For the next step, which is **Feature engineering**, it was necessary to get information about the data. In this step, I analyzed and explored the data.
 <img src = "src/plot1.png" width ="250" /> <img src = "src/plot2.png" width ="250" /> <img src = "src/plot3.png" width ="250" />
 - #### Laptops price distribution
 - #### Number of laptops of each brand
@@ -49,6 +72,7 @@ https://loptop-price-prediction.herokuapp.com/
 
 
 ## 5 - Feature Engineering
+In this step, I prepared the features for training the model
 - #### Remove outliers base on laptops price using z score
 - #### Convert screen resolution to number
 - #### Extract Gaming brands from title (asus rog , acer nitro ...)
@@ -66,19 +90,37 @@ https://loptop-price-prediction.herokuapp.com/
 
 
 ## 6 - Feature Selection
+In this step, I chose the features needed to train the model
 - #### Check correlation
 - #### Mutual information regression
 
 ## 7 - Model training  
 <img src = "src/plot4.png" width ="350" /> 
 
+## 8 - Hyperparameter tuning
+In this step, I hyperparameter tuned the model that had the best r2 score
+
 ## 9 - Cross validation
 <img src = "src/plot5.png" width ="450" />
 
 ## 10 - Save model
-
+I pickeld model for use in the gui environment
 
 ## 11 - Website
-
+To create website, I used streamlit formwork, a powerful formwork that allows me to create the desired user interface completely using Python.
 
 ## 12 - Deploy
+I used [Heroku](https://www.heroku.com/) a cloud platform as a service which provide a free hosting to deploy my app on it. it's and amzaing platform gave me so much flexbilte to deploy your apps 
+
+
+##  Libraries and FrameWorks used in the project
+
+- [streamlit](https://streamlit.io/)
+- [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+- [matplotlib](https://matplotlib.org/)
+- [seaborn](https://seaborn.pydata.org/)
+- [termcolor](https://pypi.org/project/termcolor/)
+- [scikit-learn](https://scikit-learn.org/)
+- [scipy](https://scipy.org/)
+- [xgboost](https://xgboost.readthedocs.io/)
