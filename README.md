@@ -36,6 +36,9 @@ https://loptop-price-prediction.herokuapp.com/
 - #### Clean laptops resolution
 
 ## 4 - EDA 
+<img src = "src/plot1.png" width ="230" /> <img src = "src/plot2.png" width ="230" /> <img src = "src/plot3.png" width ="230" />
+<img src = "src/plot4.png" width ="230" /> <img src = "src/plot4.png" width ="230" />
+
 - #### Laptops price distribution
 - #### Number of laptops of each brand
 - #### Number of cpu of each cpu manufacturer
