@@ -1,7 +1,7 @@
 # Loptop-price-prediction-end-to-end-project-using-ecommerce-website-data
 In this project, I tried to create a model that can predict the price of a laptop based on the criteria of the desired laptop by using the data of the available laptops that I collected from the Digikala website, the largest e-commerce site in Iran.
 
-***Note: Since the price of laptops in Iran is constantly changing, this model is trained based on the data of laptops available on 11-06-2022 (8-15-1401) in Digikala. And in the coming years, it may not have an accurate prediction, and the solution to this problem is to update the model with the most up-to-date data.***
+***Note: Since the price of laptops in Iran is constantly changing, this model is trained based on the data of laptops available on 2022-11-06 (1401-8-15) in Digikala. And in the coming years, it may not have an accurate prediction, and the solution to this problem is to update the model with the most up-to-date data.***
 
 
 Watch Demo here : 
