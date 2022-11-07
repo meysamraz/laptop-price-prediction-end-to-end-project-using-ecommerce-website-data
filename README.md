@@ -12,30 +12,32 @@ https://loptop-price-prediction.herokuapp.com/
 
 <p><img src="src/demo.png" alt=""></p>
 
+***Predict price is in Rial (Iran's currency)***
+
 # Project Overview : 
 
 ## 1 - Collect Data 
 To collect my data, I used Digikala's secret api. I was able to collect the data I wanted (available laptops with prices) with a simple fitler.
 - #### Collect Laptop main data 
-    -   id 
-    -   title_fa 
-    -   title_en 
-    -   price 
-    -   image_url 
-    -   brand
+    -   id : ID registered for laptop in Digikala
+    -   title_fa : The name of the laptop in Farsi
+    -   title_en : The name of the laptop in English
+    -   price : Laptop price in Rial (Iranian currency)
+    -   image_url : Laptop photo
+    -   brand : Laptop brand
 
 - #### Collect Laptop details data
-    -   cpu manufacturer 
-    -   cpu series
-    -   cpu model 
-    -   ram 
-    -   ram type 
-    -   internal storage 
-    -   internal storage type 
-    -   gpu manufacturer 
-    -   gpu model  
-    -   screen resolution 
-    -   ports 
+    -   cpu manufacturer : Laptop cpu manufacturer
+    -   cpu series : The cpu series used in the laptop
+    -   cpu model : The cpu model used in the laptop
+    -   ram : Laptop RAM capacity
+    -   ram type : The type of RAM used in the laptop
+    -   internal storage : Internal storage capacity of the laptop  
+    -   internal storage type : The type of internal storage in loptop
+    -   gpu manufacturer : Laptop gpu manufacturer
+    -   gpu model : The gpu model used in the laptop
+    -   screen resolution : Laptop screen resolution
+    -   ports : Ports used in laptops
 
 - #### Merge Collected data
 - #### Remove duplicated rows 
@@ -98,7 +100,6 @@ In this step, I chose the features needed to train the model
 <img src = "src/plot4.png" width ="350" /> 
 
 ## 8 - Hyperparameter tuning
-In this step, I hyperparameter tuned the model that had the best r2 score
 
 ## 9 - Cross validation
 <img src = "src/plot5.png" width ="450" />
