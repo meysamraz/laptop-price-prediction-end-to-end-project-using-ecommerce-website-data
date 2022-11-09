@@ -5,11 +5,11 @@ In this project, I tried to create a model that can predict the price of a lapto
 
 
 
-### Watch Demo here : 
+### Watch Demo here  : 
 https://meysamraz-laptop-price-prediction-project.streamlit.app/
 
 
-### Watch Demo here : 
+### Watch Demo here ***heroku version*** : 
 ##### update : heroku may shutdown free hosting at 2022 - 28 nov so if this link didnt work use link above 
 
 https://loptop-price-prediction.herokuapp.com/
