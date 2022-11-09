@@ -4,8 +4,17 @@ In this project, I tried to create a model that can predict the price of a lapto
 ***Note: Since the price of laptops in Iran is constantly changing, this model is trained based on the data of laptops available on 2022-11-06 (1401-8-15) in Digikala. And in the coming years, it may not have an accurate prediction, and the solution to this problem is to update the model with the most up-to-date data.***
 
 
-Watch Demo here : 
+
+### Watch Demo here : 
+https://meysamraz-laptop-price-prediction-project.streamlit.app/
+
+
+### Watch Demo here : 
+##### update : heroku may shutdown free hosting at 2022 - 28 nov so if this link didnt work use link above 
+
 https://loptop-price-prediction.herokuapp.com/
+
+
 
 
 ![alt Text](https://github.com/meysamraz/laptop-price-prediction-end-to-end-project-using-ecommerce-website-data/blob/master/src/preview.gif)
