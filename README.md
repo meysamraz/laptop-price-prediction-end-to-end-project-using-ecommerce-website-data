@@ -119,9 +119,7 @@ I pickeld model for use in the gui environment
 ## 10 - Create Data Pipline
 I used mage-ai (moderen and easier version of Airflow), to ETL data from Digikala everyday and retrain model based on newest data and export model 
 
-<img src = "src/ETL.png" width ="550" /> 
-
-<img src = "src/mage.png" width ="550" />
+<img src = "src/ETL.png" width ="800" /> 
 
 ## 11 - Website
 To create website, I used streamlit formwork, a powerful formwork that allows me to create the desired user interface completely using Python.
