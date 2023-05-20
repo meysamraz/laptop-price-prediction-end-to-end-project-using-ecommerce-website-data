@@ -27,7 +27,7 @@ https://loptop-price-prediction.herokuapp.com/
 
 ## 1 - Collect Data 
 To collect my data, I used Digikala's secret api. I was able to collect the data I wanted (available laptops with prices) with a simple fitler.
-- #### Collect Laptop main data 
+- #### Collect Laptop Main Data 
     -   id : ID registered for laptop in Digikala
     -   title_fa : The name of the laptop in Farsi
     -   title_en : The name of the laptop in English
@@ -35,7 +35,7 @@ To collect my data, I used Digikala's secret api. I was able to collect the data
     -   image_url : Laptop photo
     -   brand : Laptop brand
 
-- #### Collect Laptop details data
+- #### Collect Laptop Details Data
     -   cpu manufacturer : Laptop cpu manufacturer
     -   cpu series : The cpu series used in the laptop
     -   cpu model : The cpu model used in the laptop
@@ -52,14 +52,14 @@ To collect my data, I used Digikala's secret api. I was able to collect the data
 - #### Remove duplicated rows 
 - #### Save data into csv file 
 
-## 2 - Take a look at data :
+## 2 - Take a Look at Data :
 After collecting the data, I started checking the collected data to make sure it was collected correctly
 - #### Check shape of data 
 - #### Check is there any null value
 - #### Check data types
 - #### Check number of unique values in each column
 
-## 3 - Cleaning data 
+## 3 - Cleaning Data 
 Like all machine learning projects, the data doesn't arrive perfect and ready for prediction. At this point, I started cleaning the collected data.
 - #### Convert brands name from persian to english
 - #### Convert ram from persian to english digits
@@ -117,9 +117,10 @@ In this step, I chose the features needed to train the model
 I pickeld model for use in the gui environment
 
 ## 10 - Create Data Pipline
-I used mage-ai (moderen and easier version of Airflow), to ETL data from Digikala everyday and retrain model based on newest data and export model 
+I used [Mage](https://www.mage.ai/) (moderen and easier version of Airflow), to ETL data from Digikala everyday and retrain model based on newest data and export model 
 
 <img src = "src/ETL.png" width ="800" /> 
+<img src = "src/mage.png" width ="800" /> 
 
 ## 11 - Website
 To create website, I used streamlit formwork, a powerful formwork that allows me to create the desired user interface completely using Python.
@@ -128,7 +129,7 @@ To create website, I used streamlit formwork, a powerful formwork that allows me
 I used [Heroku](https://www.heroku.com/) a cloud platform as a service which provide a free hosting to deploy my app on it. it's and amzaing platform gave me so much flexbilte to deploy your apps 
 
 
-##  Libraries and FrameWorks used in the project
+##  Libraries and FrameWorks Used in the Project
 
 - [streamlit](https://streamlit.io/)
 - [pandas](https://pandas.pydata.org/)
