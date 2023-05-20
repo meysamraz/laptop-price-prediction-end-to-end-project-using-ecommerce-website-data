@@ -1,7 +1,7 @@
 # Loptop-price-prediction-end-to-end-project-using-ecommerce-website-data
 In this project, I tried to create a model that can predict the price of a laptop based on the criteria of the desired laptop by using the data of the available laptops that I collected from the Digikala website, the largest e-commerce site in Iran.
 
-***Note: Since the price of laptops in Iran is constantly changing, this model is trained based on the data of laptops available on 2022-11-06 (1401-8-15) in Digikala. And in the coming years, it may not have an accurate prediction, and the solution to this problem is to update the model with the most up-to-date data.***
+***Note: Since the price of laptops in Iran is constantly changing, I used Mage for this project, a modern tool for build and orchestrate data pipelines that fetch and prepare data and retrain model based on newset data.***
 
 
 
@@ -116,6 +116,11 @@ In this step, I chose the features needed to train the model
 ## 10 - Save model
 I pickeld model for use in the gui environment
 
+## 10 - Create Data Pipline
+I used mage-ai (moderen and easier version of Airflow), to ETL data from Digikala everyday and retrain model based on newest data and export model 
+<img src = "src/ETL.png" width ="300" /> 
+<img src = "src/mage.png" width ="300" />
+
 ## 11 - Website
 To create website, I used streamlit formwork, a powerful formwork that allows me to create the desired user interface completely using Python.
 
@@ -134,3 +139,4 @@ I used [Heroku](https://www.heroku.com/) a cloud platform as a service which pro
 - [scikit-learn](https://scikit-learn.org/)
 - [scipy](https://scipy.org/)
 - [xgboost](https://xgboost.readthedocs.io/)
+- [mage-ai](https://www.mage.ai/)
