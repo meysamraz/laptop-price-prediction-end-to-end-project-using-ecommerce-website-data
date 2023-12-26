@@ -1,7 +1,7 @@
 # Loptop-price-prediction-end-to-end-project-using-ecommerce-website-data
 In this project, I tried to create a model that can predict the price of a laptop based on the criteria of the desired laptop by using the data of the available laptops that I collected from the Digikala website, the largest e-commerce site in Iran.
 
-***This project is a part of my portfolio, showcasing my skills. The main code isn't public, but I'm open to collaboration! Interested? Email me at (my email)[mr.raz2002@gmail.com]***
+***This project is a part of my portfolio, showcasing my skills. The main code isn't public, but I'm open to collaboration! Interested? Email me at [my email](mr.raz2002@gmail.com)***
 
 ***Note: Since the price of laptops in Iran is constantly changing, I used Mage for this project, a modern tool for build and orchestrate data pipelines that fetch and prepare data and retrain model based on newset data.***
 
