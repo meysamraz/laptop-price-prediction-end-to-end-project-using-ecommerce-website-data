@@ -10,7 +10,7 @@ https://meysamraz-laptop-price-prediction-project.streamlit.app/
 
 
 ### Watch Demo here ***heroku version*** : 
-##### update : heroku may shutdown free hosting at 2022 - 28 nov so if this link didnt work use link above 
+##### update : heroku may shutdown free hosting so if this link didnt work use link above 
 
 https://loptop-price-prediction.herokuapp.com/
 
